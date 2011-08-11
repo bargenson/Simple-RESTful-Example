@@ -77,10 +77,10 @@
                   <ul class="vmenu">
                     <li>
                       <div style="text-align:center;margin:20px 0;">
-                        <a href="http://github.com">
+                        <a href="https://github.com/bargenson/Simple-RESTful-Example">
                           <img src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov6-hover.png" width="150px" />
                         </a> 
-                  	    <div style="font-weight:bold;margin-top:20px">Source Code available on GitHub (Coming soon!)</div>  
+                  	    <div style="font-weight:bold;margin-top:20px">Source Code available on GitHub</div>  
                       </div>
                     </li>
                     <li>
