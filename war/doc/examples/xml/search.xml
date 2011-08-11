@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+  <count>1</count>
+  <student>
+    <birthDate>5287-09-15T00:00:00Z</birthDate>
+    <firstName>Jack</firstName>
+    <idBooster>59253</idBooster>
+    <lastName>Harkness</lastName>
+  </student>
+</students>

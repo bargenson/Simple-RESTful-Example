@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+	<cron>
+		<url>/cron/reset</url>
+		<description>Reset the Database</description>
+		<schedule>every day 00:00</schedule>
+		<timezone>Europe/Paris</timezone>
+	</cron>
+</cronentries>

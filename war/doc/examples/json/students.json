@@ -1,0 +1,23 @@
+{
+  "count":"3",
+  "student":[
+    {
+      "birthDate":"5287-09-16T12:03:26.590Z",
+      "firstName":"Jack",
+      "idBooster":"59253",
+      "lastName":"Harkness"
+    },
+    {
+      "birthDate":"1997-08-13T12:03:26.590Z",
+      "firstName":"Eric",
+      "idBooster":"64543",
+      "lastName":"Cartman"
+    },
+    {
+      "birthDate":"1946-06-30T12:03:26.590Z",
+      "firstName":"Joe",
+      "idBooster":"65442",
+      "lastName":"Dalton"
+    }
+  ]
+}

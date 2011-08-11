@@ -1,0 +1,21 @@
+<students>
+  <count>3</count>
+  <student>
+    <birthDate>5287-09-16T12:03:26.590Z</birthDate>
+    <firstName>Jack</firstName>
+    <idBooster>59253</idBooster>
+    <lastName>Harkness</lastName>
+  </student>
+  <student>
+    <birthDate>1997-08-13T12:03:26.590Z</birthDate>
+    <firstName>Eric</firstName>
+    <idBooster>64543</idBooster>
+    <lastName>Cartman</lastName>
+  </student>
+  <student>
+    <birthDate>1946-06-30T12:03:26.590Z</birthDate>
+    <firstName>Joe</firstName>
+    <idBooster>65442</idBooster>
+    <lastName>Dalton</lastName>
+  </student>
+</students>
