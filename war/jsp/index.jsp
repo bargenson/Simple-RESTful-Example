@@ -1,7 +1,7 @@
-<h3>A Simple RESTful example</h3>
+<h1>A Simple RESTful example</h1>
 <p>
-	This webapp is a simple RESTful application example for students in computing science.<br/>
-	It was designed with Java EE Technologies (Servlet, JAX-RS, JPA) and hosted by Google&nbsp;App&nbsp;Engine.
+	This webapp is <b>a simple RESTful application example</b>.<br/>
+	It's hosted by Google&nbsp;App&nbsp;Engine and was designed with Java EE Technologies (Servlet, JPA, JAX-RS, JAX-B, ...).
 </p>
 <p>
 	The documentation of the REST API is available in the side bar to the right.
@@ -16,7 +16,7 @@
 	</ul>
 </p>
 <p>
-	Source codes are available on GitHub. Click into the logo inside the side bar to get there.
+	The source code is publicly available on <a href="https://github.com/bargenson/Simple-RESTful-Example">GitHub</a>.
 </p>
 <p>
 	Have Fun !

@@ -4,12 +4,25 @@
     <title>Simple RESTful Example</title>
     <meta charset="utf-8" />
     <meta name="title" content="Simple RESTful Example" />
-    <meta name="description" content="A Simple RESTful Example" />
+    <meta name="description" content="A Simple RESTful Example designed with Java EE Technologies including JAX-RS, JAX-B and JPA and hosted by Google App Engine." />
     <meta name="language" content="fr" />
     <meta name="author" content="@bargenson" />
     <link id="theme" rel="stylesheet" type="text/css" href="/style.css" title="theme" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <sitemesh:write property='head'/>
+    <script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-25122825-1']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	
+	</script>
   </head>
   <body> 
     <div id="wrapper"> 
@@ -19,7 +32,9 @@
           <div id="container"> 
             <!-- banner -->
             <div id="banner">
-            	<a href="/jsp/index.jsp" shape="rect" style="display: block; width: 50%; height: 100%"></a>
+            	<a href="/jsp/index.jsp" shape="rect" style="display: block; width: 50%; height: 100%">
+            		<span style="display: none;">Simple RESTful Example</span>
+            	</a>
             </div>  
             <!-- end banner -->  
 			<!-- horizontal navigation   -->
@@ -78,7 +93,8 @@
                     <li>
                       <div style="text-align:center;margin:20px 0;">
                         <a href="https://github.com/bargenson/Simple-RESTful-Example">
-                          <img src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov6-hover.png" width="150px" />
+                          <span style="display: none;">Simple RESTful Example Source Code</span>
+                          <img src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov6-hover.png" width="150px" alt="Source Code on GitHub" />
                         </a> 
                   	    <div style="font-weight:bold;margin-top:20px">Source Code available on GitHub</div>  
                       </div>
@@ -86,7 +102,8 @@
                     <li>
                       <div style="text-align:center;margin:20px 0;">
                         <a href="http://www.supinfo.com">
-                          <img src="http://www.supinfo.com/SupInfoCommonResources/SUPINFO-PICTURES/Charte/Logo%20SUPINFO%20horizontal%20-%20Noir%20sur%20Blanc%20-%20CMJN%20300dpi.jpg" width="200px" />
+                          <span style="display: none;">Simple RESTful Example</span>
+                          <img src="http://www.supinfo.com/SupInfoCommonResources/SUPINFO-PICTURES/Charte/Logo%20SUPINFO%20horizontal%20-%20Noir%20sur%20Blanc%20-%20CMJN%20300dpi.jpg" width="200px" alt="SUPINFO logo" />
                         </a> 
                   	    <div style="font-weight:bold;margin-top:20px">www.supinfo.com</div>  
                       </div> 
@@ -101,14 +118,20 @@
           <!-- end container --> 
         </div>  
         <div id="footerWrapper"> 
-          <div id="footer"> 
-<!--             <p style="padding-top:10px;">  -->
-<!--               <a href="#" shape="rect">Home</a> |  -->
-<!--               <a href="#" shape="rect">Products</a> |  -->
-<!--               <a href="#" shape="rect">Services</a> |  -->
-<!--               <a href="#" shape="rect">News</a> |  -->
-<!--               <a href="#" shape="rect">About</a>  -->
-<!--             </p>   -->
+          <div id="footer" style="padding-top: 10px;"> 
+          	            
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+            <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            
+            <g:plusone size="medium"></g:plusone>
+			<script type="text/javascript">
+			  (function() {
+			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			    po.src = 'https://apis.google.com/js/plusone.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+
             <p>
               <a href="http://www.dotemplate.com" shape="rect">Templates</a> maker
             </p> 
