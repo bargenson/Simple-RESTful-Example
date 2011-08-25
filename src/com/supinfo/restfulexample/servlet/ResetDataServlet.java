@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.supinfo.restfulexample.dao.DaoFactory;
 import com.supinfo.restfulexample.dao.StudentDao;
 import com.supinfo.restfulexample.entity.Student;
+import com.supinfo.restfulexample.search.CompassManager;
 
 public class ResetDataServlet extends HttpServlet {
 
@@ -31,6 +32,8 @@ public class ResetDataServlet extends HttpServlet {
 		for (Student student : studentsToCreate) {
 			studentDao.addStudent(student);
 		}
+		
+		CompassManager.getInstance().index();
 	}
 
 	private List<Student> buildInitStudents() {

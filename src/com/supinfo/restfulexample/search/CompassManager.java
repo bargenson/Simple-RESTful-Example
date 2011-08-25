@@ -44,7 +44,10 @@ public final class CompassManager {
 	
 	public void startGps() {
 		compassGps.start();
-		compassGps.index();
+	}
+	
+	public void index() {
+		compassGps.index();		
 	}
 
 }
