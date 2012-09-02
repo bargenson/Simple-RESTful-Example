@@ -6,23 +6,11 @@
     <meta name="title" content="Simple RESTful Example" />
     <meta name="description" content="A Simple RESTful Example designed with Java EE Technologies including JAX-RS, JAX-B and JPA and hosted by Google App Engine." />
     <meta name="language" content="fr" />
-    <meta name="author" content="@bargenson" />
+    <meta name="author" content="Brice Argenson" />
+    <link rel="author" href="https://plus.google.com/117186897677813301832">
     <link id="theme" rel="stylesheet" type="text/css" href="/style.css" title="theme" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <sitemesh:write property='head'/>
-    <script type="text/javascript">
-
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-25122825-1']);
-		_gaq.push(['_trackPageview']);
-		
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	
-	</script>
   </head>
   <body> 
     <div id="wrapper"> 
@@ -32,6 +20,9 @@
           <div id="container"> 
             <!-- banner -->
             <div id="banner">
+            	<a href="http://github.com/bargenson/Simple-RESTful-Example">
+            		<img style="position: relative; top: 0; left: 0; border: 0;" src="/images/ForkMe_Blk.png" alt="Fork me on GitHub">
+            	</a>
             	<a href="/jsp/index.jsp" shape="rect" style="display: block; width: 50%; height: 100%">
             		<span style="display: none;">Simple RESTful Example</span>
             	</a>
@@ -94,7 +85,7 @@
                       <div style="text-align:center;margin:20px 0;">
                         <a href="https://github.com/bargenson/Simple-RESTful-Example">
                           <span style="display: none;">Simple RESTful Example Source Code</span>
-                          <img src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov6-hover.png" width="150px" alt="Source Code on GitHub" />
+                          <img src="/images/GitHub_Logo.png" width="150px" alt="Source Code on GitHub" />
                         </a> 
                   	    <div style="font-weight:bold;margin-top:20px">Source Code available on GitHub</div>  
                       </div>
@@ -103,7 +94,7 @@
                       <div style="text-align:center;margin:20px 0;">
                         <a href="http://www.supinfo.com">
                           <span style="display: none;">Simple RESTful Example</span>
-                          <img src="http://www.supinfo.com/SupInfoCommonResources/SUPINFO-PICTURES/Charte/Logo%20SUPINFO%20horizontal%20-%20Noir%20sur%20Blanc%20-%20CMJN%20300dpi.jpg" width="200px" alt="SUPINFO logo" />
+                          <img src="/images/Supinfo-logo.jpeg" width="150px" alt="SUPINFO logo" />
                         </a> 
                   	    <div style="font-weight:bold;margin-top:20px">www.supinfo.com</div>  
                       </div> 
@@ -133,11 +124,26 @@
 			</script>
 
             <p>
+              Developed by <a href="http://www.bargenson.fr">Brice Argenson</a>
+              |
               <a href="http://www.dotemplate.com" shape="rect">Templates</a> maker
             </p> 
           </div> 
         </div> 
       </div> 
-    </div> 
+    </div>
+    <script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-25122825-1']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	
+	</script>
   </body>
 </html>
